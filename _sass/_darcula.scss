@@ -11,8 +11,12 @@ code {
 }
 
 .highlighter-rouge { 
-    background-color: #FAFAFA; 
-    color: #FF554A; 
+    //background-color: #FAFAFA; 
+    background-color: darkgray;
+    //BML-CHANGE:
+    //color: #FF554A; 
+    //BML-CHANGE:
+    color: darken($color: darkgray, $amount: 50);
     font-size: 16px;
 }
 
